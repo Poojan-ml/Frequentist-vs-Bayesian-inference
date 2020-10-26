@@ -1,8 +1,9 @@
 # **Introduction**
 
+'''
 There is a container which has **n** number of balls of **5** different colors - Orange , Green , Blue , Violet, Red.
 Each of the color's balls are generated from Discrete Uniform Distribution, yielding approximately same number of balls of each color. We conduct hypothesis testing using Frequentist and Bayesian inference to check whether the propotion of Red ball is **0.2**.
-
+'''
 # Imports and mapping
 """
 
