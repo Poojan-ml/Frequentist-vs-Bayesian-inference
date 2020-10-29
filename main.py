@@ -46,7 +46,7 @@ print("Total number of Red balls in a sample of size",n,"is",k)
 #Calculating p-value
 '''
 t~Binomial(n,p)
-# p_value = P(t>=k|n=,p=0.2){Probability that random variable t is greater than equal to k, t~Binom(n,p)}
+# p_value = P(t>=k|n,p=p_0){Probability that random variable t is greater than equal to k, t~Binom(n,p)}
 '''
 p_value = 1 - binom.cdf(k-1,n,p_0)
 
